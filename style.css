@@ -1,9 +1,10 @@
 #banner {
 	width:100%;
+	padding: 50px 0;
 }
 
 .principal{
-	background: #CCCCCC;
+	background: #caff0c;
 	padding: 30px;
 }
 
@@ -24,7 +25,7 @@ p {
 }
 
 em strong {
-	color: #FF0000;
+	color: #ff0000;
 }
 
 .itens {
@@ -43,6 +44,6 @@ ul {
 	margin-right: 15%;
 }
 
-.imagembeneficios {
+.imagemcarro {
 	width: 50%;
 }
