@@ -1,15 +1,24 @@
+
+body {
+	background: rgb(250,2,2);
+background: linear-gradient(90deg, rgba(250,2,2,1) 0%, rgba(238,255,27,1) 35%, rgba(18,255,0,1) 100%);
+}
+
+
+
 #banner {
 	width:100%;
 	padding: 50px 0;
 }
 
-.principal{
-	background: #caff0c;
-	padding: 30px;
-}
+
 
 .titulo-principal {
 	padding-left: 20px;
+	display :flex;
+	justify-content: center;
+	background: rgb(251,22,22);
+background: linear-gradient(90deg, rgba(251,22,22,0.835171568627451) 0%, rgba(255,38,27,1) 35%, rgba(240,18,18,0.896796218487395) 100%);
 }
 
 .titulo-centralizado {
@@ -33,8 +42,9 @@ em strong {
 }
 
 .beneficios {
-	background: #FFFFFF;
 	padding: 20px;
+	background: rgb(250,2,2);
+background: linear-gradient(90deg, rgba(250,2,2,1) 0%, rgba(215,255,27,1) 35%, rgba(255,59,0,1) 100%);
 }
 
 ul {
@@ -46,4 +56,7 @@ ul {
 
 .imagemcarro {
 	width: 50%;
+
 }
+	
+	
