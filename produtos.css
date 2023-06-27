@@ -1,5 +1,6 @@
 header {
-	background: #BBBBBB;
+	background: rgb(0,0,3);
+background: linear-gradient(90deg, rgba(0,0,3,1) 0%, rgba(209,17,21,1) 28%, rgba(74,14,33,1) 100%);
 	padding: 20px 0;
 }
 
@@ -52,7 +53,7 @@ nav a:hover {
 }
 
 .produtos li:hover {
-	border-color: #C78C19;
+	border-color: #f70c0c;
 }
 
 .produtos li:active {
@@ -85,7 +86,7 @@ footer {
 }
 
 .copyright {
-	color: #FFFFFF;
+	color: #460aeb;
 	font-size: 13px;
 	margin: 20px 0 0;
 }
