@@ -1,7 +1,7 @@
 
 body {
-	background: rgb(250,2,2);
-background: linear-gradient(90deg, rgba(250,2,2,1) 0%, rgba(238,255,27,1) 35%, rgba(18,255,0,1) 100%);
+	background: rgb(255,8,8);
+background: linear-gradient(90deg, rgba(255,8,8,1) 0%, rgba(141,245,9,0.989233193277311) 35%, rgba(250,255,53,0.9752275910364145) 100%);
 }
 
 
@@ -17,8 +17,7 @@ background: linear-gradient(90deg, rgba(250,2,2,1) 0%, rgba(238,255,27,1) 35%, r
 	padding-left: 20px;
 	display :flex;
 	justify-content: center;
-	background: rgb(251,22,22);
-background: linear-gradient(90deg, rgba(251,22,22,0.835171568627451) 0%, rgba(255,38,27,1) 35%, rgba(240,18,18,0.896796218487395) 100%);
+	
 }
 
 .titulo-centralizado {
@@ -43,8 +42,8 @@ em strong {
 
 .beneficios {
 	padding: 20px;
-	background: rgb(250,2,2);
-background: linear-gradient(90deg, rgba(250,2,2,1) 0%, rgba(215,255,27,1) 35%, rgba(255,59,0,1) 100%);
+	border: 2px;
+	border-style: solid;
 }
 
 ul {
