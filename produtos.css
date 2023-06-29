@@ -1,14 +1,13 @@
 header {
-	background: rgb(0,0,3);
-background: linear-gradient(90deg, rgba(0,0,3,1) 0%, rgba(209,17,21,1) 28%, rgba(74,14,33,1) 100%);
-	padding: 20px 0;
+	background: rgb(254,96,163);
+background: radial-gradient(circle, rgba(254,96,163,1) 0%, rgba(215,233,148,1) 95%);
 }
 
 .caixa {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
-}
+	}
 
 nav {
 	position: absolute;
@@ -30,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #ee07c7cb;
 	text-decoration: underline;
 }
 
@@ -38,6 +37,7 @@ nav a:hover {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
+	
 }
 
 .produtos li {
@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 .produtos li:hover {
-	border-color: #f70c0c;
+	border-color: #9e9b00;
 }
 
 .produtos li:active {
@@ -89,4 +89,9 @@ footer {
 	color: #460aeb;
 	font-size: 13px;
 	margin: 20px 0 0;
+}
+
+body {
+	background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
