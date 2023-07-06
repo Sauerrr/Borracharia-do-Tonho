@@ -42,9 +42,7 @@ em strong {
 
 .beneficios {
 	padding: 20px;
-	border: 2px;
-	border-style: solid;
-}
+	}
 
 ul {
 	display: inline-block;
@@ -55,6 +53,8 @@ ul {
 
 .imagemcarro {
 	width: 50%;
+	border: 2px;
+	border-style: solid;
 
 }
 
@@ -62,5 +62,6 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 }
 	
