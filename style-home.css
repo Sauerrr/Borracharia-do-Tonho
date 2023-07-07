@@ -1,0 +1,67 @@
+
+body {
+	background: rgb(255,8,8);
+background: linear-gradient(90deg, rgba(255,8,8,1) 0%, rgba(141,245,9,0.989233193277311) 35%, rgba(250,255,53,0.9752275910364145) 100%);
+}
+
+
+
+#banner {
+	width:100%;
+	padding: 50px 0;
+}
+
+
+
+.titulo-principal {
+	padding-left: 20px;
+	display :flex;
+	justify-content: center;
+	
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #ff0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficios {
+	padding: 20px;
+	}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagemcarro {
+	width: 50%;
+	border: 2px;
+	border-style: solid;
+
+}
+
+.imagem{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+	

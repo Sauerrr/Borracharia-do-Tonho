@@ -1,67 +1,123 @@
-
-body {
-	background: rgb(255,8,8);
-background: linear-gradient(90deg, rgba(255,8,8,1) 0%, rgba(141,245,9,0.989233193277311) 35%, rgba(250,255,53,0.9752275910364145) 100%);
+header {
+	background: rgb(254,96,163);
+background: radial-gradient(circle, rgba(254,96,163,1) 0%, rgba(215,233,148,1) 95%);
 }
 
-
-
-#banner {
-	width:100%;
-	padding: 50px 0;
-}
-
-
-
-.titulo-principal {
-	padding-left: 20px;
-	display :flex;
-	justify-content: center;
-	
-}
-
-.titulo-centralizado {
-	text-align: center
-}
-
-p {
-	text-align: center;
-}
-
-#missao {
-	font-size: 20px
-}
-
-em strong {
-	color: #ff0000;
-}
-
-.itens {
-	font-style: italic
-}
-
-.beneficios {
-	padding: 20px;
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 	}
 
-ul {
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ee07c7cb;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	
+}
+
+.produtos li {
 	display: inline-block;
+	text-align: center;
+	width: 30%;
 	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
-.imagemcarro {
+.produtos li:hover {
+	border-color: #9e9b00;
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #460aeb;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+body {
+	background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form p {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
 	width: 50%;
-	border: 2px;
-	border-style: solid;
-
 }
-
-.imagem{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
+.checkbox {
+	margin: 20px 0;
 }
-	
