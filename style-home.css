@@ -21,7 +21,7 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%
 }
 
 .titulo-centralizado {
-	text-align: center
+	text-align: center;
 }
 
 p {
@@ -80,7 +80,32 @@ ul {
 		text-align: center;
 	}
 	
+	
+	
+	nav {
+		position: absolute;
+		top: 110px;
+		right: 0;
+	}
+	
+	nav li {
+		display: inline;
+		margin: 0 0 0 15px;
+	}
+	
+	nav a {
+		text-transform: uppercase;
+		color: #000000;
+		font-weight: bold;
+		font-size: 22px;
+		text-decoration: none;
+	}
+	
+	nav a:hover {
+		color: #ee07c7cb;
+		text-decoration: underline;
+	}
+	.zapzap {
+		width: 30%;
 
-	
-		
-	
+	}
