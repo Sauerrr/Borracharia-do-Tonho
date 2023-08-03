@@ -105,7 +105,17 @@ ul {
 		color: #ee07c7cb;
 		text-decoration: underline;
 	}
-	.zapzap {
-		width: 30%;
-
+	.img-zap {
+		display: flex;
+		justify-content: center;
+		
 	}
+	.zapzap{
+		width: 20%;
+		display: block;
+		text-align: center;
+		border: #000000;
+	}
+	 
+
+	
